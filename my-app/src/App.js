@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import StatefulGreeting from './components/StatfulGreeting';
+import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+
+//import StatefulGreeting from './components/StatfulGreeting';
 //import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';  
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting greeting="I'm a stateful class component!" />
+      <StatefulGreetingWithPrevState />
     </div>
   );
 }
